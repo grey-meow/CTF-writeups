@@ -9,10 +9,13 @@ The first clue that can be seen here is it's in ScarletCTF Discord server. I'm a
 
 Here are our suspects:
 Profile 1:
-<img src="Frog_Finder_Profile1.png" width="50">
+
+<img src="Frog_Finder_Profile1.png" width="100">
+
 
 Profile 2: 
-<img src="Frog_Finder_Profile2.png" width="50">
+
+<img src="Frog_Finder_Profile2.png" width="100">
 
 I recognised the frog on the character's head from Sanrio as Keroppi. Now I was really not sure how to find the wealth of this character. So we skip to the second profile.
 

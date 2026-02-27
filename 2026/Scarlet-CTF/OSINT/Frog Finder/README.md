@@ -23,6 +23,7 @@ For Profile 1, I recognised the frog on the character's head from Sanrio as Kero
 For Profile 2, I have no clue where the character is from. So I reverse image search using tineye.com and google image search 
 
 From the google reverse image search, I found that the frog came from the game Lufia 2: Rise of the Sinistrals from this reddit post.
+
 <img src="Frog_Finder_Reddit1.png" width="200"> <img src="Frog_Finder_Reddit2.png" width="200">
 
 

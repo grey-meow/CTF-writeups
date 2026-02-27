@@ -34,10 +34,12 @@ I searched about King Frog and found out that it is labelled as "normal enemy". 
 <img src="Frog_Finder_search1.png" width="200">
 
 500 gold. Let's try that flag. 
-RUSEC{KINGFROG_500}
-It's not the flag. Now I have to actually see the gameplay. 
 
-I searched up on youtube; "Lufia 2: Rise of the Sinistrals King Frog". Here's the link to the [video](https://youtu.be/uF6F3XtEUCk?si=UDr9F67XefoClB77)
+RUSEC{KINGFROG_500}
+
+It seems like that is not the flag. Now I have to actually see the gameplay. 
+
+I searched up on youtube; "Lufia 2: Rise of the Sinistrals King Frog". Here's the link to the [video](https://youtu.be/uF6F3XtEUCk?si=UDr9F67XefoClB77).
 The game gives the total amount of gold after killing the enemies. Seems like some math needs to be done.
 
 When the user killed 1 snell and 2 King Frog, user received 1032 gold [timestamp: 7:01 - 7:32]

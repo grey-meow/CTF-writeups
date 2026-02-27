@@ -40,6 +40,7 @@ I searched up on youtube; "Lufia 2: Rise of the Sinistrals King Frog". Here's th
 The game gives the total amount of gold after killing the enemies. Seems like some math needs to be done.
 
 When the user killed 1 snell and 2 King Frog, user received 1032 gold [timestamp: 7:01 - 7:32]
+
 When the user killed 2 snell and 2 King Frog, user received 1364 gold [timestamp: 8:08 - 8:58]
 
 1 snell = 332 gold

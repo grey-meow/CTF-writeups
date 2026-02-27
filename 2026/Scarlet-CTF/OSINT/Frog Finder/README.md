@@ -43,9 +43,14 @@ When the user killed 1 snell and 2 King Frog, user received 1032 gold [timestamp
 
 When the user killed 2 snell and 2 King Frog, user received 1364 gold [timestamp: 8:08 - 8:58]
 
+
 1 snell = 332 gold
+
 2 King Frog = 1032-332 = 700 gold
+
 1 King Frog = 700/2 = 350 gold
 
+
 The final flag is:
+
 RUSEC{KINGFROG_350}

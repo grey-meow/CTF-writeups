@@ -74,19 +74,19 @@ When the user killed 2 snell and 2 King Frog, user received 1364 gold [timestamp
 
 ### Mathematical calculation
 
-'''
+```
 1 snell = 332 gold
 
 2 King Frog = 1032-332 = 700 gold
 
 1 King Frog = 700/2 = 350 gold
-'''
+```
 Therefore:
-'''
+```
 1 King Frog = 350 gold
-'''
+```
 
 ## Final Flag
-'''
+```
 RUSEC{KINGFROG_350}
-'''
+```

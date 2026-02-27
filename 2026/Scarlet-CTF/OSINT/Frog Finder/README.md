@@ -7,7 +7,7 @@
 
 The challenge mention that it's in ScarletCTF Discord server. This suggests that the flag has something to do with staff or moderators in the server that have frog-related character as their profile pictures.
 
---
+
 
 ## Suspect Profiles:
 
@@ -26,7 +26,7 @@ Profile 2:
 
 Reverse image search is required to identify profile 2. 
 
---
+
 
 ## Reverse Image Search
 
@@ -63,6 +63,8 @@ RUSEC{KINGFROG_500}
 
 It seems like that is not the flag. Now I have to actually see the gameplay. 
 
+## Gameplay Analysis
+
 I searched up on youtube; "Lufia 2: Rise of the Sinistrals King Frog". Here's the link to the [video](https://youtu.be/uF6F3XtEUCk?si=UDr9F67XefoClB77).
 The game gives the total amount of gold after killing the enemies. Seems like some math needs to be done.
 
@@ -70,14 +72,21 @@ When the user killed 1 snell and 2 King Frog, user received 1032 gold [timestamp
 
 When the user killed 2 snell and 2 King Frog, user received 1364 gold [timestamp: 8:08 - 8:58]
 
+### Mathematical calculation
 
+'''
 1 snell = 332 gold
 
 2 King Frog = 1032-332 = 700 gold
 
 1 King Frog = 700/2 = 350 gold
+'''
+Therefore:
+'''
+1 King Frog = 350 gold
+'''
 
-
-The final flag is:
-
+## Final Flag
+'''
 RUSEC{KINGFROG_350}
+'''

@@ -5,9 +5,9 @@
 
 ## Challenge Description: 
 
-The challenge mention that it's in ScarletCTF Discord server. This suggests that the flag has something to do with staff or moderators in the server that have frog-related character as their profile pictures.
+The challenge mentions that it is located in the ScarletCTF Discord server. This suggests that the flag has something to do with staff or moderators in the server that uses frog-themed profile pictures.
 
-
+This narrows down the investigation to identifiable frog characters rather than arbitrary usernames or random imagery.
 
 ## Suspect Profiles:
 
@@ -24,9 +24,9 @@ Profile 2:
 -**Profile 1**: Frog character resembles Keroppi (Sanrio)
 -**Profile 2**: Unknown frog-related character. A potential lead.
 
-Reverse image search is required to identify profile 2. 
+Since profile 1 character does not have a clear in-universe indicator of "wealth", profile 2 is more likely to contain clearer indicator of "wealth" relevant to the frog.
 
-
+This suggests reverse image search as the next step.
 
 ## Reverse Image Search
 
@@ -35,6 +35,9 @@ From the google reverse image search of the frog from profile 2, the reddit post
 **Lufia II: Rise of the Sinistrals (1995 SNES RPG)**
 
 <img src="Frog_Finder_Reddit1.png" width="200"> <img src="Frog_Finder_Reddit2.png" width="200">
+
+This confirmed the frog was a specific in-game character, shifting the investigation toward in-game attributes rather than community usernames or Discord metadata.
+
  --
 
 The character is identified as :
@@ -49,30 +52,36 @@ Thus, the first half of the flag is:
 KINGFROG
 ```
 
----
-
 ## Determining the "wealth" of King Frog
 
-I searched about King Frog and found out that it is labelled as "normal enemy". Usually in games if you kill enemies you will get rewarded. Based on that, the "wealth" of King Frog could translate to how much reward you will get from killing one King Frog. Here's what came up:
+I searched about King Frog and found out that it is labelled as "normal enemy". In RPGs, enemy “wealth” is typically reflected by the gold reward obtained after defeating them:
 
 <img src="Frog_Finder_search1.png" width="200">
 
-500 gold. Let's try that flag. 
+500 gold
 
+Attempted flag:
+```
 RUSEC{KINGFROG_500}
-
-It seems like that is not the flag. Now I have to actually see the gameplay. 
+```
+This was incorrect, indicating the value required more precise verification. Now the actual gameplay must be reviewed for the actual value of gold 
 
 ## Gameplay Analysis
 
-I searched up on youtube; "Lufia 2: Rise of the Sinistrals King Frog". Here's the link to the [video](https://youtu.be/uF6F3XtEUCk?si=UDr9F67XefoClB77).
-The game gives the total amount of gold after killing the enemies. Seems like some math needs to be done.
+To verify the actual gold value, gameplay footage was reviewed
 
-When the user killed 1 snell and 2 King Frog, user received 1032 gold [timestamp: 7:01 - 7:32]
+Youtube reference:
+[Lufia II: Rise of the Sinistrals](https://youtu.be/uF6F3XtEUCk?si=UDr9F67XefoClB77).
 
-When the user killed 2 snell and 2 King Frog, user received 1364 gold [timestamp: 8:08 - 8:58]
+Observed values:
+
+When the player defeated 1 snell and 2 King Frog, user received 1032 gold [timestamp: 7:01 - 7:32]
+
+When the player defeated 2 snell and 2 King Frog, user received 1364 gold [timestamp: 8:08 - 8:58]
 
 ### Mathematical calculation
+
+Assuming gold rewards are additive with no modifiers applied:
 
 ```
 1 snell = 332 gold

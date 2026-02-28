@@ -22,6 +22,7 @@ Profile 2:
 ## Observation:
 
 -**Profile 1**: Frog character resembles Keroppi (Sanrio)
+
 -**Profile 2**: Unknown frog-related character. A potential lead.
 
 Since profile 1 character does not have a clear in-universe indicator of "wealth", profile 2 is more likely to contain clearer indicator of "wealth" relevant to the frog.
@@ -38,7 +39,6 @@ From the google reverse image search of the frog from profile 2, the reddit post
 
 This confirmed the frog was a specific in-game character, shifting the investigation toward in-game attributes rather than community usernames or Discord metadata.
 
- --
 
 The character is identified as :
 

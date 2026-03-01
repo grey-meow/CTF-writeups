@@ -54,7 +54,7 @@ KINGFROG
 
 ## Determining the "wealth" of King Frog
 
-I searched about King Frog and found out that it is labelled as "normal enemy". In RPGs, enemy “wealth” is typically reflected by the gold reward obtained after defeating them:
+I searched online and found out that King Frog it is labelled as "normal enemy". In RPGs, enemy “wealth” is typically reflected by the gold reward obtained after defeating them:
 
 <img src="Frog_Finder_search1.png" width="200">
 
@@ -68,16 +68,16 @@ This was incorrect, indicating the value required more precise verification. Now
 
 ## Gameplay Analysis
 
-To verify the actual gold value, gameplay footage was reviewed
+To verify the actual gold value, gameplay footage was reviewed:
 
 Youtube reference:
 [Lufia II: Rise of the Sinistrals](https://youtu.be/uF6F3XtEUCk?si=UDr9F67XefoClB77).
 
 Observed values:
 
-When the player defeated 1 snell and 2 King Frog, user received 1032 gold [timestamp: 7:01 - 7:32]
+When the player defeated 1 snell and 2 King Frog: the user received 1032 gold [timestamp: 7:01 - 7:32]
 
-When the player defeated 2 snell and 2 King Frog, user received 1364 gold [timestamp: 8:08 - 8:58]
+When the player defeated 2 snell and 2 King Frog: the user received 1364 gold [timestamp: 8:08 - 8:58]
 
 ### Mathematical calculation
 
